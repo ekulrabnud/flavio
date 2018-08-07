@@ -1,0 +1,73 @@
+[
+ObjTp=FSgntr
+Sgntr=FlashComposite
+;Increment this version when CED file format changes
+RelVrs=3
+IntStrVrs=1
+VTProeVer=6.1.09
+]
+[
+ObjTp=Symbol
+Name=tsr302_TV_TV Presets Application.ced
+Hint=TV Presets Application (Smart Object ID=3)
+Code=3
+SGControlType=TV Presets Application
+SGControlName=TV Presets Application
+GUID=25641A72-BB4A-4578-BED9-5860150B786D
+SmplCName=tsr302_TV_TV Presets Application.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10123
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=0
+MaxVariableInputs=0
+MinVariableOutputs=0
+MaxVariableOutputs=0
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=2
+MaxVariableInputsList3=2
+MinVariableOutputsList3=2
+MaxVariableOutputsList3=2
+;Define the cues, and signal types  each input, output and parameter.
+InputList3Cue1=CRPC_FB
+InputList3SigType1=Serial
+OutputList3Cue1=CRPC
+OutputList3SigType1=Serial
+InputList3Cue2=Message_FB
+InputList3SigType2=Serial
+OutputList3Cue2=Message
+OutputList3SigType2=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=3
+CedH=3
+SmartObjId=3d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=3
+Tp=1
+HD=TRUE
+DV=3d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=3
+Name=tsr302_TV_TV Presets Application.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+CedMod=TV Presets CRPC Interface v1.1.cmc
+]
