@@ -4,13 +4,13 @@ Sgntr=FlashComposite
 ;Increment this version when CED file format changes
 RelVrs=3
 IntStrVrs=1
-VTProeVer=6.1.09
+VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
 Name=tsw760_HVAC_HVAC Fan Mode.ced
 Hint=HVAC Fan Mode (Smart Object ID=21)
-Code=22
+Code=21
 SGControlType=Horizontal Tab Button
 SGControlName=HVAC Fan Mode
 GUID=CB5E7A2E-0350-477E-8F15-BB4C80CEF43C
@@ -52,14 +52,14 @@ OutputSigType4=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=22
-CedH=22
+Pp1=21
+CedH=21
 SmartObjId=21d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=22
+H=21
 Tp=1
 HD=TRUE
 DV=21d
@@ -72,7 +72,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=22
+H=21
 Name=tsw760_HVAC_HVAC Fan Mode.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

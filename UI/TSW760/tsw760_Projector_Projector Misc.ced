@@ -4,13 +4,13 @@ Sgntr=FlashComposite
 ;Increment this version when CED file format changes
 RelVrs=3
 IntStrVrs=1
-VTProeVer=6.1.09
+VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
 Name=tsw760_Projector_Projector Misc.ced
 Hint=Projector Misc (Smart Object ID=34)
-Code=25
+Code=23
 SGControlType=Vertical Tab Button
 SGControlName=Projector Misc
 GUID=C810C8AA-165E-4F98-9340-5F020C6B7E5D
@@ -60,14 +60,14 @@ OutputSigType6=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=25
-CedH=25
+Pp1=23
+CedH=23
 SmartObjId=34d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=25
+H=23
 Tp=1
 HD=TRUE
 DV=34d
@@ -80,7 +80,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=25
+H=23
 Name=tsw760_Projector_Projector Misc.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

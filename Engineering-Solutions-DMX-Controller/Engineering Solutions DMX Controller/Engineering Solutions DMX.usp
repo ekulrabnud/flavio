@@ -1,0 +1,159 @@
+
+#DEFAULT_VOLATILE
+#HELP_BEGIN
+   http://response-box.com/gear
+   RS-232 9600,8,1,N (Please make sure that the metal case of the RS-232 Plug is connected to Crestron Comport Ground).
+   Set Sliders on VTP to 0 to 255
+   FadeSlider 0-255 = 0 to 25.5sec
+   For RGB Lights when you set the box to ID x it uses also x+1 and x+2
+   Red, Green And Blue should be the same signal as RedFb, GreenFb And BlueFb.
+   ShowTime will play all saved presets in order with Last set fadetime.
+#HELP_END
+DIGITAL_INPUT		_Skip_, ShowTime, AllOff, AllOn, SliderRelease, RecallPreset[10], SavePreset[10];
+ANALOG_INPUT		_Skip_, Red, Green, Blue, _Skip_, FadeTime; 
+DIGITAL_OUTPUT	_Skip_, ShowTimeFb;
+ANALOG_OUTPUT		_Skip_, RedFb, GreenFb, BlueFb, _Skip_, FadeTimeFb; 
+STRING_OUTPUT		_Skip_, ToDmx, FadeTimeText;		 
+INTEGER_PARAMETER DmxId;
+STRUCTURE sPreset
+{
+	Integer sRed;
+	Integer sGreen;
+	Integer sBlue;
+	Integer sFade;
+	Integer IsUsed;
+};
+INTEGER			ShowTimePointer;
+NONVOLATILE sPreset Preset[10];
+
+//*******************************************************************************************
+//*******************************************************************************************
+Function SendRGB(Integer iFadeTime)
+{
+	MakeString(ToDmx, "F%03u@%03u,%03u@%03u,%03u@%03u:%03u\x0D", DmxId, Red, DmxId+1, Green, DmxId+2, Blue, iFadeTime);
+}
+
+//*******************************************************************************************
+Change FadeTime
+{
+	Wait(50) MakeString(FadeTimeText, "%u Sec", FadeTimeFb/10);
+}
+
+//*******************************************************************************************
+Function ExePreset(Integer Index, Integer FadeFlag)
+{
+	RedFb = Preset[Index].sRed;
+	GreenFb = Preset[Index].sGreen;
+	BlueFb = Preset[Index].sBlue;
+	If(FadeFlag = 0) FadeTimeFb = Preset[Index].sFade;
+	Else FadeTimeFb = FadeFlag;
+	MakeString(FadeTimeText, "%u Sec", FadeTimeFb/10);
+	SendRGB(FadeTime);
+}
+
+//*******************************************************************************************
+Function RunShowTime(Integer ShowTimeWaitTime)
+{
+	Wait(ShowTimeWaitTime, ShowTimeWait)
+		{
+		ShowTimePointer = ShowTimePointer + 1;
+		If(Preset[ShowTimePointer].IsUsed) 
+			{
+			If(ShowTimePointer > 10) ShowTimePointer = 1;
+			ExePreset(ShowTimePointer, FadeTime);
+			RunShowTime(FadeTime*20);
+			}
+		Else
+			{
+			If(ShowTimePointer = 1) ShowTimeFb = 0;
+			Else { ShowTimePointer = 0; RunShowTime(FadeTime*20); }
+			}
+		}			
+}
+
+//*******************************************************************************************
+Push ShowTime
+{
+	ShowTimeFb = !ShowTimeFb;
+	CancelWait(ShowTimeWait);
+	If(ShowTimeFb)
+		{
+		ShowTimePointer = 0;
+		RunShowTime(10);
+		}
+}
+
+//*******************************************************************************************
+Release SliderRelease
+{
+	If(ShowTimeFb = 1) { ShowTimeFb = 0; CancelWait(ShowTimeWait); }
+	Wait(30) SendRGB(FadeTime);
+}
+
+//*******************************************************************************************
+Push AllOn
+{
+	If(ShowTimeFb = 1) { ShowTimeFb = 0; CancelWait(ShowTimeWait); }
+	RedFb = 255;
+	GreenFb = 255;
+	BlueFb = 255;
+
+	Wait(30) SendRGB(0);
+}
+
+//*******************************************************************************************
+Push AllOff
+{
+	If(ShowTimeFb = 1) { ShowTimeFb = 0; CancelWait(ShowTimeWait); }
+	RedFb = 0;
+	GreenFb = 0;
+	BlueFb = 0;
+
+	Wait(30) SendRGB(0);
+}
+
+//*******************************************************************************************
+Change SavePreset
+{
+Integer Index;
+
+	Index = GetLastModifiedArrayIndex();
+	If(ShowTimeFb = 1) { ShowTimeFb = 0; CancelWait(ShowTimeWait); }
+	Preset[Index].sRed = Red;
+	Preset[Index].sGreen = Green;
+	Preset[Index].sBlue = Blue;
+	Preset[Index].sFade = FadeTime;
+	Preset[Index].IsUsed = 1;
+}
+
+//*******************************************************************************************
+Change RecallPreset
+{
+Integer Index;
+
+	Index = GetLastModifiedArrayIndex();
+	If(ShowTimeFb = 1) { ShowTimeFb = 0; CancelWait(ShowTimeWait); }
+	If(Preset[Index].IsUsed = 1) ExePreset(Index, 0);	
+}
+
+//*******************************************************************************************/
+Function Main()
+{
+Integer i;
+
+	WaitForInitializationComplete();
+	Delay(500);
+	For(i = 1 to 10)
+		{
+		If(Preset[i].sRed > 255 || Preset[i].sGreen > 255 || Preset[i].sBlue > 255 || Preset[i].sFade > 255)
+			{
+			Preset[i].sRed = 0;
+			Preset[i].sGreen = 0;
+			Preset[i].sBlue = 0;
+			Preset[i].sFade = 0;
+			Preset[i].IsUsed = 0;
+			}		
+		}
+}
+
+

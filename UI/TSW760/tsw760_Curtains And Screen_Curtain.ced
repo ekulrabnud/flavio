@@ -4,13 +4,13 @@ Sgntr=FlashComposite
 ;Increment this version when CED file format changes
 RelVrs=3
 IntStrVrs=1
-VTProeVer=6.1.09
+VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
 Name=tsw760_Curtains And Screen_Curtain.ced
 Hint=Curtain (Smart Object ID=19)
-Code=20
+Code=19
 SGControlType=Vertical Tab Button
 SGControlName=Curtain
 GUID=2FC86575-B19D-4B0D-9C13-197449D27DDF
@@ -52,14 +52,14 @@ OutputSigType4=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=20
-CedH=20
+Pp1=19
+CedH=19
 SmartObjId=19d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=20
+H=19
 Tp=1
 HD=TRUE
 DV=19d
@@ -72,7 +72,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=20
+H=19
 Name=tsw760_Curtains And Screen_Curtain.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
