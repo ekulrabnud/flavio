@@ -4,7 +4,7 @@ Sgntr=SGD
 RelVrs=3
 VTProeVer=6.2.00
 Schema=1
-CRCGUID=2F79AB20-D44C-4F81-BB5D-CE6F6AA4EE64
+CRCGUID=7E7795E6-6599-491A-8A91-754545AA1B26
 ]
 ;================================================================================
 [
@@ -2246,9 +2246,317 @@ CedVer=1
 ;================================================================================
 [
 ObjTp=Symbol
+Name=tsw760_Receiver_BeoSys Treble Up Down.ced
+Hint=BeoSys Treble Up Down (Smart Object ID=4)
+Code=28
+SGControlType=Vertical Tab Button
+SGControlName=BeoSys Treble Up Down
+GUID=E62DAC3C-10A7-4128-95BE-C25F5A3F78FF
+SmplCName=tsw760_Receiver_BeoSys Treble Up Down.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10074
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=28
+CedH=28
+SmartObjId=4d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=28
+Tp=1
+HD=TRUE
+DV=4d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=28
+Name=tsw760_Receiver_BeoSys Treble Up Down.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=tsw760_Receiver_Beosys Input.ced
+Hint=Beosys Input (Smart Object ID=30)
+Code=29
+SGControlType=Horizontal Tab Button
+SGControlName=Beosys Input
+GUID=9BDDD8BC-4E68-4953-AD83-5CFB792F40A9
+SmplCName=tsw760_Receiver_Beosys Input.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=29
+CedH=29
+SmartObjId=30d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=29
+Tp=1
+HD=TRUE
+DV=30d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=29
+Name=tsw760_Receiver_Beosys Input.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=tsw760_Receiver_Beo SYS Balance Left Right.ced
+Hint=Beo SYS Balance Left Right (Smart Object ID=18)
+Code=30
+SGControlType=Horizontal Tab Button
+SGControlName=Beo SYS Balance Left Right
+GUID=52255152-C824-4AA8-A1CF-7E660E1252D5
+SmplCName=tsw760_Receiver_Beo SYS Balance Left Right.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=30
+CedH=30
+SmartObjId=18d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=30
+Tp=1
+HD=TRUE
+DV=18d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=30
+Name=tsw760_Receiver_Beo SYS Balance Left Right.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=tsw760_Receiver_Beosys Bass Up Down.ced
+Hint=Beosys Bass Up Down (Smart Object ID=14)
+Code=31
+SGControlType=Vertical Tab Button
+SGControlName=Beosys Bass Up Down
+GUID=BC6EBD35-5AA2-4B02-982E-59217B265240
+SmplCName=tsw760_Receiver_Beosys Bass Up Down.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10074
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=31
+CedH=31
+SmartObjId=14d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=31
+Tp=1
+HD=TRUE
+DV=14d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=31
+Name=tsw760_Receiver_Beosys Bass Up Down.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
 Name=tsw760_DMX_DMX Red.ced
 Hint=DMX Red (Smart Object ID=35)
-Code=28
+Code=32
 SGControlType=Vertical Tab Button
 SGControlName=DMX Red
 GUID=183BB595-F6FB-4180-8313-DF98E8313929
@@ -2290,14 +2598,14 @@ OutputSigType4=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=28
-CedH=28
+Pp1=32
+CedH=32
 SmartObjId=35d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=28
+H=32
 Tp=1
 HD=TRUE
 DV=35d
@@ -2310,7 +2618,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=28
+H=32
 Name=tsw760_DMX_DMX Red.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -2321,7 +2629,7 @@ CedVer=1
 ObjTp=Symbol
 Name=tsw760_DMX_DMX Green.ced
 Hint=DMX Green (Smart Object ID=36)
-Code=29
+Code=33
 SGControlType=Vertical Tab Button
 SGControlName=DMX Green
 GUID=902C3B08-3EF2-465E-958F-A63AF1F34A0E
@@ -2363,14 +2671,14 @@ OutputSigType4=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=29
-CedH=29
+Pp1=33
+CedH=33
 SmartObjId=36d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=29
+H=33
 Tp=1
 HD=TRUE
 DV=36d
@@ -2383,7 +2691,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=29
+H=33
 Name=tsw760_DMX_DMX Green.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -2394,7 +2702,7 @@ CedVer=1
 ObjTp=Symbol
 Name=tsw760_DMX_DMX Blue.ced
 Hint=DMX Blue (Smart Object ID=37)
-Code=30
+Code=34
 SGControlType=Vertical Tab Button
 SGControlName=DMX Blue
 GUID=04A71CA2-C3FF-49FE-8852-CE43D6B98207
@@ -2436,14 +2744,14 @@ OutputSigType4=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=30
-CedH=30
+Pp1=34
+CedH=34
 SmartObjId=37d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=30
+H=34
 Tp=1
 HD=TRUE
 DV=37d
@@ -2456,7 +2764,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=30
+H=34
 Name=tsw760_DMX_DMX Blue.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -2467,7 +2775,7 @@ CedVer=1
 ObjTp=Symbol
 Name=tsw760_DMX_DMX Fade Time.ced
 Hint=DMX Fade Time (Smart Object ID=38)
-Code=31
+Code=35
 SGControlType=Vertical Tab Button
 SGControlName=DMX Fade Time
 GUID=B4986347-243A-4FE3-B2E8-F6BE82E27E7A
@@ -2509,14 +2817,14 @@ OutputSigType4=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=31
-CedH=31
+Pp1=35
+CedH=35
 SmartObjId=38d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=31
+H=35
 Tp=1
 HD=TRUE
 DV=38d
@@ -2529,7 +2837,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=31
+H=35
 Name=tsw760_DMX_DMX Fade Time.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

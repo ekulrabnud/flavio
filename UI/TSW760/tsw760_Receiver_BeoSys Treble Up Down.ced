@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_DMX_DMX Blue.ced
-Hint=DMX Blue (Smart Object ID=37)
-Code=34
+Name=tsw760_Receiver_BeoSys Treble Up Down.ced
+Hint=BeoSys Treble Up Down (Smart Object ID=4)
+Code=28
 SGControlType=Vertical Tab Button
-SGControlName=DMX Blue
-GUID=04A71CA2-C3FF-49FE-8852-CE43D6B98207
-SmplCName=tsw760_DMX_DMX Blue.ced
+SGControlName=BeoSys Treble Up Down
+GUID=E62DAC3C-10A7-4128-95BE-C25F5A3F78FF
+SmplCName=tsw760_Receiver_BeoSys Treble Up Down.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10074
@@ -52,17 +52,17 @@ OutputSigType4=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=34
-CedH=34
-SmartObjId=37d
+Pp1=28
+CedH=28
+SmartObjId=4d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=34
+H=28
 Tp=1
 HD=TRUE
-DV=37d
+DV=4d
 NF=1
 DNF=1
 EncFmt=0
@@ -72,8 +72,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=34
-Name=tsw760_DMX_DMX Blue.ced
+H=28
+Name=tsw760_Receiver_BeoSys Treble Up Down.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

@@ -8,21 +8,21 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_DMX_DMX Blue.ced
-Hint=DMX Blue (Smart Object ID=37)
-Code=34
-SGControlType=Vertical Tab Button
-SGControlName=DMX Blue
-GUID=04A71CA2-C3FF-49FE-8852-CE43D6B98207
-SmplCName=tsw760_DMX_DMX Blue.ced
+Name=tsw760_Receiver_Beosys Input.ced
+Hint=Beosys Input (Smart Object ID=30)
+Code=29
+SGControlType=Horizontal Tab Button
+SGControlName=Beosys Input
+GUID=9BDDD8BC-4E68-4953-AD83-5CFB792F40A9
+SmplCName=tsw760_Receiver_Beosys Input.ced
 SMWRev=4.02.19
 Expand=expand_random
-HelpID=10074
+HelpID=10031
 ;Define the number of inputs, outputs and parameters
-MinVariableInputs=4
-MaxVariableInputs=4
-MinVariableOutputs=4
-MaxVariableOutputs=4
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
 NumFixedParams=1
 MinVariableInputsList2=0
 MaxVariableInputsList2=0
@@ -49,20 +49,36 @@ InputCue4=Tab Button 2 Select
 InputSigType4=Digital
 OutputCue4=[~UNUSED3~]
 OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=34
-CedH=34
-SmartObjId=37d
+Pp1=29
+CedH=29
+SmartObjId=30d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=34
+H=29
 Tp=1
 HD=TRUE
-DV=37d
+DV=30d
 NF=1
 DNF=1
 EncFmt=0
@@ -72,8 +88,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=34
-Name=tsw760_DMX_DMX Blue.ced
+H=29
+Name=tsw760_Receiver_Beosys Input.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

@@ -10,7 +10,7 @@ VTProeVer=6.2.00
 ObjTp=Symbol
 Name=tsw760_DMX_DMX Red.ced
 Hint=DMX Red (Smart Object ID=35)
-Code=28
+Code=32
 SGControlType=Vertical Tab Button
 SGControlName=DMX Red
 GUID=183BB595-F6FB-4180-8313-DF98E8313929
@@ -52,14 +52,14 @@ OutputSigType4=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=28
-CedH=28
+Pp1=32
+CedH=32
 SmartObjId=35d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=28
+H=32
 Tp=1
 HD=TRUE
 DV=35d
@@ -72,7 +72,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=28
+H=32
 Name=tsw760_DMX_DMX Red.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
