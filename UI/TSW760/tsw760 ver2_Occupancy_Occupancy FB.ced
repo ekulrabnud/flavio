@@ -8,21 +8,21 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Receiver_BeoSys Treble Up Down.ced
-Hint=BeoSys Treble Up Down (Smart Object ID=4)
-Code=28
+Name=tsw760 ver2_Occupancy_Occupancy FB.ced
+Hint=Occupancy FB (Smart Object ID=10)
+Code=8
 SGControlType=Vertical Tab Button
-SGControlName=BeoSys Treble Up Down
-GUID=E62DAC3C-10A7-4128-95BE-C25F5A3F78FF
-SmplCName=tsw760_Receiver_BeoSys Treble Up Down.ced
+SGControlName=Occupancy FB
+GUID=895C099A-9BE4-4F62-8B49-F5912404D506
+SmplCName=tsw760 ver2_Occupancy_Occupancy FB.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10074
 ;Define the number of inputs, outputs and parameters
-MinVariableInputs=4
-MaxVariableInputs=4
-MinVariableOutputs=4
-MaxVariableOutputs=4
+MinVariableInputs=12
+MaxVariableInputs=12
+MinVariableOutputs=12
+MaxVariableOutputs=12
 NumFixedParams=1
 MinVariableInputsList2=0
 MaxVariableInputsList2=0
@@ -49,20 +49,52 @@ InputCue4=Tab Button 2 Select
 InputSigType4=Digital
 OutputCue4=[~UNUSED3~]
 OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Tab Button 5 Press
+OutputSigType9=Digital
+InputCue10=Tab Button 5 Select
+InputSigType10=Digital
+OutputCue10=[~UNUSED3~]
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Tab Button 6 Press
+OutputSigType11=Digital
+InputCue12=Tab Button 6 Select
+InputSigType12=Digital
+OutputCue12=[~UNUSED3~]
+OutputSigType12=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=28
-CedH=28
-SmartObjId=4d
+Pp1=8
+CedH=8
+SmartObjId=10d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=28
+H=8
 Tp=1
 HD=TRUE
-DV=4d
+DV=10d
 NF=1
 DNF=1
 EncFmt=0
@@ -72,8 +104,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=28
-Name=tsw760_Receiver_BeoSys Treble Up Down.ced
+H=8
+Name=tsw760 ver2_Occupancy_Occupancy FB.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

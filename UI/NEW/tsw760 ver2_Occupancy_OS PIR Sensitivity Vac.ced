@@ -1,0 +1,80 @@
+[
+ObjTp=FSgntr
+Sgntr=FlashComposite
+;Increment this version when CED file format changes
+RelVrs=3
+IntStrVrs=1
+VTProeVer=6.2.00
+]
+[
+ObjTp=Symbol
+Name=tsw760 ver2_Occupancy_OS PIR Sensitivity Vac.ced
+Hint=OS PIR Sensitivity Vac (Smart Object ID=12)
+Code=9
+SGControlType=Horizontal Tab Button
+SGControlName=OS PIR Sensitivity Vac
+GUID=5AF6D756-78B4-4D73-AFB1-964BE1D914B1
+SmplCName=tsw760 ver2_Occupancy_OS PIR Sensitivity Vac.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=9
+CedH=9
+SmartObjId=12d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=9
+Tp=1
+HD=TRUE
+DV=12d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=9
+Name=tsw760 ver2_Occupancy_OS PIR Sensitivity Vac.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]

@@ -1,0 +1,88 @@
+[
+ObjTp=FSgntr
+Sgntr=FlashComposite
+;Increment this version when CED file format changes
+RelVrs=3
+IntStrVrs=1
+VTProeVer=6.2.00
+]
+[
+ObjTp=Symbol
+Name=tsw760 ver2_Lights_Light Preset 4-6.ced
+Hint=Light Preset 4-6 (Smart Object ID=29)
+Code=14
+SGControlType=Horizontal Tab Button
+SGControlName=Light Preset 4-6
+GUID=D2BE5688-3746-40DB-8A4C-995E791F33D3
+SmplCName=tsw760 ver2_Lights_Light Preset 4-6.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=6
+MaxVariableInputs=6
+MinVariableOutputs=6
+MaxVariableOutputs=6
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=14
+CedH=14
+SmartObjId=29d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=14
+Tp=1
+HD=TRUE
+DV=29d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=14
+Name=tsw760 ver2_Lights_Light Preset 4-6.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]

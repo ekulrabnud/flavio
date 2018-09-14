@@ -8,21 +8,21 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Receiver_Beo SYS Balance Left Right.ced
-Hint=Beo SYS Balance Left Right (Smart Object ID=18)
-Code=30
+Name=tsw760 ver2_Occupancy_OS US and PIR Enable.ced
+Hint=OS US and PIR Enable (Smart Object ID=5)
+Code=4
 SGControlType=Horizontal Tab Button
-SGControlName=Beo SYS Balance Left Right
-GUID=52255152-C824-4AA8-A1CF-7E660E1252D5
-SmplCName=tsw760_Receiver_Beo SYS Balance Left Right.ced
+SGControlName=OS US and PIR Enable
+GUID=7CA55349-3371-4C9F-A718-685D160D68D3
+SmplCName=tsw760 ver2_Occupancy_OS US and PIR Enable.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
 ;Define the number of inputs, outputs and parameters
-MinVariableInputs=4
-MaxVariableInputs=4
-MinVariableOutputs=4
-MaxVariableOutputs=4
+MinVariableInputs=6
+MaxVariableInputs=6
+MinVariableOutputs=6
+MaxVariableOutputs=6
 NumFixedParams=1
 MinVariableInputsList2=0
 MaxVariableInputsList2=0
@@ -49,20 +49,28 @@ InputCue4=Tab Button 2 Select
 InputSigType4=Digital
 OutputCue4=[~UNUSED3~]
 OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=30
-CedH=30
-SmartObjId=18d
+Pp1=4
+CedH=4
+SmartObjId=5d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=30
+H=4
 Tp=1
 HD=TRUE
-DV=18d
+DV=5d
 NF=1
 DNF=1
 EncFmt=0
@@ -72,8 +80,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=30
-Name=tsw760_Receiver_Beo SYS Balance Left Right.ced
+H=4
+Name=tsw760 ver2_Occupancy_OS US and PIR Enable.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1
