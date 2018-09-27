@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_HVAC_HVAC Fan Mode.ced
+Name=TSW760_HVAC_HVAC Fan Mode.ced
 Hint=HVAC Fan Mode (Smart Object ID=21)
 Code=21
 SGControlType=Horizontal Tab Button
 SGControlName=HVAC Fan Mode
 GUID=CB5E7A2E-0350-477E-8F15-BB4C80CEF43C
-SmplCName=tsw760_HVAC_HVAC Fan Mode.ced
+SmplCName=TSW760_HVAC_HVAC Fan Mode.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -73,7 +73,7 @@ Sgn=0
 [
 ObjTp=CED
 H=21
-Name=tsw760_HVAC_HVAC Fan Mode.ced
+Name=TSW760_HVAC_HVAC Fan Mode.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

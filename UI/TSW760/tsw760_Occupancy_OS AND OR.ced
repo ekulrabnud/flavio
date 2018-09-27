@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Occupancy_OS AND OR.ced
+Name=TSW760_Occupancy_OS AND OR.ced
 Hint=OS AND OR (Smart Object ID=9)
 Code=11
 SGControlType=Horizontal Tab Button
 SGControlName=OS AND OR
 GUID=806341B3-CD30-41A2-9BE9-535DE83C36A8
-SmplCName=tsw760_Occupancy_OS AND OR.ced
+SmplCName=TSW760_Occupancy_OS AND OR.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -73,7 +73,7 @@ Sgn=0
 [
 ObjTp=CED
 H=11
-Name=tsw760_Occupancy_OS AND OR.ced
+Name=TSW760_Occupancy_OS AND OR.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Occupancy_OS PIR Sensitivity Vac.ced
+Name=TSW760_Occupancy_OS PIR Sensitivity Vac.ced
 Hint=OS PIR Sensitivity Vac (Smart Object ID=12)
 Code=9
 SGControlType=Horizontal Tab Button
 SGControlName=OS PIR Sensitivity Vac
 GUID=5AF6D756-78B4-4D73-AFB1-964BE1D914B1
-SmplCName=tsw760_Occupancy_OS PIR Sensitivity Vac.ced
+SmplCName=TSW760_Occupancy_OS PIR Sensitivity Vac.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -73,7 +73,7 @@ Sgn=0
 [
 ObjTp=CED
 H=9
-Name=tsw760_Occupancy_OS PIR Sensitivity Vac.ced
+Name=TSW760_Occupancy_OS PIR Sensitivity Vac.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

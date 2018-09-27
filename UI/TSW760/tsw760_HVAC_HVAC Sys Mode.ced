@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_HVAC_HVAC Sys Mode.ced
+Name=TSW760_HVAC_HVAC Sys Mode.ced
 Hint=HVAC Sys Mode (Smart Object ID=20)
 Code=20
 SGControlType=Horizontal Tab Button
 SGControlName=HVAC Sys Mode
 GUID=DFAEEDC2-0C2D-4326-BBDB-EB6125300270
-SmplCName=tsw760_HVAC_HVAC Sys Mode.ced
+SmplCName=TSW760_HVAC_HVAC Sys Mode.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -97,7 +97,7 @@ Sgn=0
 [
 ObjTp=CED
 H=20
-Name=tsw760_HVAC_HVAC Sys Mode.ced
+Name=TSW760_HVAC_HVAC Sys Mode.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Occupancy_OS US and PIR Enable.ced
+Name=TSW760_Occupancy_OS US and PIR Enable.ced
 Hint=OS US and PIR Enable (Smart Object ID=5)
 Code=4
 SGControlType=Horizontal Tab Button
 SGControlName=OS US and PIR Enable
 GUID=7CA55349-3371-4C9F-A718-685D160D68D3
-SmplCName=tsw760_Occupancy_OS US and PIR Enable.ced
+SmplCName=TSW760_Occupancy_OS US and PIR Enable.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -81,7 +81,7 @@ Sgn=0
 [
 ObjTp=CED
 H=4
-Name=tsw760_Occupancy_OS US and PIR Enable.ced
+Name=TSW760_Occupancy_OS US and PIR Enable.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

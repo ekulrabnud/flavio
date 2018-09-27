@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_beosys_Beo SYS Balance Left Right.ced
+Name=TSW760_beosys_Beo SYS Balance Left Right.ced
 Hint=Beo SYS Balance Left Right (Smart Object ID=18)
-Code=30
+Code=33
 SGControlType=Horizontal Tab Button
 SGControlName=Beo SYS Balance Left Right
 GUID=52255152-C824-4AA8-A1CF-7E660E1252D5
-SmplCName=tsw760_beosys_Beo SYS Balance Left Right.ced
+SmplCName=TSW760_beosys_Beo SYS Balance Left Right.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -52,14 +52,14 @@ OutputSigType4=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=30
-CedH=30
+Pp1=33
+CedH=33
 SmartObjId=18d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=30
+H=33
 Tp=1
 HD=TRUE
 DV=18d
@@ -72,8 +72,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=30
-Name=tsw760_beosys_Beo SYS Balance Left Right.ced
+H=33
+Name=TSW760_beosys_Beo SYS Balance Left Right.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

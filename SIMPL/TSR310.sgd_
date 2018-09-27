@@ -4,32 +4,32 @@ Sgntr=SGD
 RelVrs=3
 VTProeVer=6.2.00
 Schema=1
-CRCGUID=BE068935-E951-45C3-B6EE-2BDFE500D8A9
+CRCGUID=9D27F0AD-DDF2-4A7D-BEB4-3723DC0F6E7F
 ]
 ;================================================================================
 [
 ObjTp=Hd
 ProjectFile=TSR310.vtp
-VtpGuid=3AE78326-5476-4D01-8D8D-AA3B8BBB8CC1
+VtpGuid=A862D4D0-E7D9-4A9C-8EDE-0B1D4FE5D5EE
 ]
 ;================================================================================
 [
 ObjTp=Symbol
-Name=TSR310_main_Buttons Left.ced
-Hint=Buttons Left (Smart Object ID=1)
+Name=TSR310_Directv_Keypad TSR310.ced
+Hint=Keypad TSR310 (Smart Object ID=1)
 Code=1
-SGControlType=Vertical Tab Button
-SGControlName=Buttons Left
-GUID=2C022BA7-9610-4FDF-A277-3C24E941C6BD
-SmplCName=TSR310_main_Buttons Left.ced
+SGControlType=Simple Keypad
+SGControlName=Keypad TSR310
+GUID=EE4BC5DC-6C85-405A-8F27-2C492A52F2A4
+SmplCName=TSR310_Directv_Keypad TSR310.ced
 SMWRev=4.02.19
 Expand=expand_random
-HelpID=10074
+HelpID=10061
 ;Define the number of inputs, outputs and parameters
-MinVariableInputs=6
-MaxVariableInputs=6
-MinVariableOutputs=6
-MaxVariableOutputs=6
+MinVariableInputs=12
+MaxVariableInputs=12
+MinVariableOutputs=12
+MaxVariableOutputs=12
 NumFixedParams=1
 MinVariableInputsList2=0
 MaxVariableInputsList2=0
@@ -42,28 +42,52 @@ MaxVariableOutputsList3=0
 ;Define the cues, and signal types  each input, output and parameter.
 InputCue1=[~UNUSED3~]
 InputSigType1=Digital
-OutputCue1=Tab Button 1 Press
+OutputCue1=1
 OutputSigType1=Digital
-InputCue2=Tab Button 1 Select
+InputCue2=[~UNUSED3~]
 InputSigType2=Digital
-OutputCue2=[~UNUSED3~]
+OutputCue2=2
 OutputSigType2=Digital
 InputCue3=[~UNUSED3~]
 InputSigType3=Digital
-OutputCue3=Tab Button 2 Press
+OutputCue3=3
 OutputSigType3=Digital
-InputCue4=Tab Button 2 Select
+InputCue4=[~UNUSED3~]
 InputSigType4=Digital
-OutputCue4=[~UNUSED3~]
+OutputCue4=4
 OutputSigType4=Digital
 InputCue5=[~UNUSED3~]
 InputSigType5=Digital
-OutputCue5=Tab Button 3 Press
+OutputCue5=5
 OutputSigType5=Digital
-InputCue6=Tab Button 3 Select
+InputCue6=[~UNUSED3~]
 InputSigType6=Digital
-OutputCue6=[~UNUSED3~]
+OutputCue6=6
 OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=7
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=8
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=9
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=0
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Misc_1
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Misc_2
+OutputSigType12=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
@@ -88,7 +112,7 @@ Sgn=0
 [
 ObjTp=CED
 H=1
-Name=TSR310_main_Buttons Left.ced
+Name=TSR310_Directv_Keypad TSR310.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1
@@ -96,21 +120,94 @@ CedVer=1
 ;================================================================================
 [
 ObjTp=Symbol
-Name=TSR310_main_Buttons Right.ced
-Hint=Buttons Right (Smart Object ID=2)
+Name=TSR310_Curtains_Curtain Open Close.ced
+Hint=Curtain Open Close (Smart Object ID=4)
 Code=2
-SGControlType=Vertical Tab Button
-SGControlName=Buttons Right
-GUID=CD63EA91-E0B4-4E8F-A8B5-20B6F755FD54
-SmplCName=TSR310_main_Buttons Right.ced
+SGControlType=Horizontal Tab Button
+SGControlName=Curtain Open Close
+GUID=02A7A8F3-DD9B-44EA-99C0-46DB4D4EC4E7
+SmplCName=TSR310_Curtains_Curtain Open Close.ced
 SMWRev=4.02.19
 Expand=expand_random
-HelpID=10074
+HelpID=10031
 ;Define the number of inputs, outputs and parameters
-MinVariableInputs=6
-MaxVariableInputs=6
-MinVariableOutputs=6
-MaxVariableOutputs=6
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=2
+CedH=2
+SmartObjId=4d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=2
+Tp=1
+HD=TRUE
+DV=4d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=2
+Name=TSR310_Curtains_Curtain Open Close.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSR310_Lights_Light Dimmer 4 il.ced
+Hint=Light Dimmer 4 il (Smart Object ID=26)
+Code=3
+SGControlType=Horizontal Tab Button
+SGControlName=Light Dimmer 4 il
+GUID=E588390C-D585-4780-A069-7F736920E091
+SmplCName=TSR310_Lights_Light Dimmer 4 il.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
 NumFixedParams=1
 MinVariableInputsList2=0
 MaxVariableInputsList2=0
@@ -145,85 +242,20 @@ InputCue6=Tab Button 3 Select
 InputSigType6=Digital
 OutputCue6=[~UNUSED3~]
 OutputSigType6=Digital
-ParamCue1=SmartObjectId
-ParamSigType1=Constant
-MPp=1
-Pp1=2
-CedH=2
-SmartObjId=2d
-]
-; Parameter Properties for Smart Object ID
-[
-ObjTp=Dp
-H=2
-Tp=1
-HD=TRUE
-DV=2d
-NF=1
-DNF=1
-EncFmt=0
-DVLF=1
-Sgn=0
-]
-; Smart Objects Definition section
-[
-ObjTp=CED
-H=2
-Name=TSR310_main_Buttons Right.ced
-;Cedver is the version of the Smart Graphics control, not the CED file format.
-;If the control definition changes, increment this.
-CedVer=1
-]
-;================================================================================
-[
-ObjTp=Symbol
-Name=TSR310_Lights_Light 1 Dimmer.ced
-Hint=Light 1 Dimmer (Smart Object ID=6)
-Code=3
-SGControlType=Horizontal Tab Button
-SGControlName=Light 1 Dimmer
-GUID=6CCA31D2-5069-4378-BBBE-655FB42353FF
-SmplCName=TSR310_Lights_Light 1 Dimmer.ced
-SMWRev=4.02.19
-Expand=expand_random
-HelpID=10031
-;Define the number of inputs, outputs and parameters
-MinVariableInputs=4
-MaxVariableInputs=4
-MinVariableOutputs=4
-MaxVariableOutputs=4
-NumFixedParams=1
-MinVariableInputsList2=0
-MaxVariableInputsList2=0
-MinVariableOutputsList2=0
-MaxVariableOutputsList2=0
-MinVariableInputsList3=0
-MaxVariableInputsList3=0
-MinVariableOutputsList3=0
-MaxVariableOutputsList3=0
-;Define the cues, and signal types  each input, output and parameter.
-InputCue1=[~UNUSED3~]
-InputSigType1=Digital
-OutputCue1=Tab Button 1 Press
-OutputSigType1=Digital
-InputCue2=Tab Button 1 Select
-InputSigType2=Digital
-OutputCue2=[~UNUSED3~]
-OutputSigType2=Digital
-InputCue3=[~UNUSED3~]
-InputSigType3=Digital
-OutputCue3=Tab Button 2 Press
-OutputSigType3=Digital
-InputCue4=Tab Button 2 Select
-InputSigType4=Digital
-OutputCue4=[~UNUSED3~]
-OutputSigType4=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
 Pp1=3
 CedH=3
-SmartObjId=6d
+SmartObjId=26d
 ]
 ; Parameter Properties for Smart Object ID
 [
@@ -231,7 +263,7 @@ ObjTp=Dp
 H=3
 Tp=1
 HD=TRUE
-DV=6d
+DV=26d
 NF=1
 DNF=1
 EncFmt=0
@@ -242,7 +274,7 @@ Sgn=0
 [
 ObjTp=CED
 H=3
-Name=TSR310_Lights_Light 1 Dimmer.ced
+Name=TSR310_Lights_Light Dimmer 4 il.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1
@@ -250,21 +282,21 @@ CedVer=1
 ;================================================================================
 [
 ObjTp=Symbol
-Name=TSR310_Lights_Light 2 Dimmer.ced
-Hint=Light 2 Dimmer (Smart Object ID=7)
+Name=TSR310_Lights_Light Dimmer 3 il.ced
+Hint=Light Dimmer 3 il (Smart Object ID=25)
 Code=4
 SGControlType=Horizontal Tab Button
-SGControlName=Light 2 Dimmer
-GUID=9660CAF5-08B1-4BE8-88A6-DFEBC5A51945
-SmplCName=TSR310_Lights_Light 2 Dimmer.ced
+SGControlName=Light Dimmer 3 il
+GUID=AD15FDC0-FA46-4C31-8A04-7A9D561478A1
+SmplCName=TSR310_Lights_Light Dimmer 3 il.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
 ;Define the number of inputs, outputs and parameters
-MinVariableInputs=4
-MaxVariableInputs=4
-MinVariableOutputs=4
-MaxVariableOutputs=4
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
 NumFixedParams=1
 MinVariableInputsList2=0
 MaxVariableInputsList2=0
@@ -291,12 +323,28 @@ InputCue4=Tab Button 2 Select
 InputSigType4=Digital
 OutputCue4=[~UNUSED3~]
 OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
 Pp1=4
 CedH=4
-SmartObjId=7d
+SmartObjId=25d
 ]
 ; Parameter Properties for Smart Object ID
 [
@@ -304,7 +352,7 @@ ObjTp=Dp
 H=4
 Tp=1
 HD=TRUE
-DV=7d
+DV=25d
 NF=1
 DNF=1
 EncFmt=0
@@ -315,7 +363,7 @@ Sgn=0
 [
 ObjTp=CED
 H=4
-Name=TSR310_Lights_Light 2 Dimmer.ced
+Name=TSR310_Lights_Light Dimmer 3 il.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1
@@ -323,13 +371,13 @@ CedVer=1
 ;================================================================================
 [
 ObjTp=Symbol
-Name=TSR310_Lights_Light 3 Dimmer.ced
-Hint=Light 3 Dimmer (Smart Object ID=8)
+Name=TSR310_Lights_Light Dimmer 2.ced
+Hint=Light Dimmer 2 (Smart Object ID=24)
 Code=5
 SGControlType=Horizontal Tab Button
-SGControlName=Light 3 Dimmer
-GUID=EE997E96-F62B-4302-A810-CDA895AACAB5
-SmplCName=TSR310_Lights_Light 3 Dimmer.ced
+SGControlName=Light Dimmer 2
+GUID=B45C7C76-5CE3-4EBE-8292-B9A56A2B11D4
+SmplCName=TSR310_Lights_Light Dimmer 2.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -369,7 +417,7 @@ ParamSigType1=Constant
 MPp=1
 Pp1=5
 CedH=5
-SmartObjId=8d
+SmartObjId=24d
 ]
 ; Parameter Properties for Smart Object ID
 [
@@ -377,7 +425,7 @@ ObjTp=Dp
 H=5
 Tp=1
 HD=TRUE
-DV=8d
+DV=24d
 NF=1
 DNF=1
 EncFmt=0
@@ -388,7 +436,7 @@ Sgn=0
 [
 ObjTp=CED
 H=5
-Name=TSR310_Lights_Light 3 Dimmer.ced
+Name=TSR310_Lights_Light Dimmer 2.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1
@@ -396,13 +444,13 @@ CedVer=1
 ;================================================================================
 [
 ObjTp=Symbol
-Name=TSR310_Lights_Light 4 Dimmer.ced
-Hint=Light 4 Dimmer (Smart Object ID=9)
+Name=TSR310_Lights_Light Dimmer 5.ced
+Hint=Light Dimmer 5 (Smart Object ID=27)
 Code=6
 SGControlType=Horizontal Tab Button
-SGControlName=Light 4 Dimmer
-GUID=DE9F0B9C-FD9E-46FF-83BC-76CB8F8D0395
-SmplCName=TSR310_Lights_Light 4 Dimmer.ced
+SGControlName=Light Dimmer 5
+GUID=118857AE-9DF2-4401-B749-B70041ED67C0
+SmplCName=TSR310_Lights_Light Dimmer 5.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -442,7 +490,7 @@ ParamSigType1=Constant
 MPp=1
 Pp1=6
 CedH=6
-SmartObjId=9d
+SmartObjId=27d
 ]
 ; Parameter Properties for Smart Object ID
 [
@@ -450,7 +498,7 @@ ObjTp=Dp
 H=6
 Tp=1
 HD=TRUE
-DV=9d
+DV=27d
 NF=1
 DNF=1
 EncFmt=0
@@ -461,7 +509,7 @@ Sgn=0
 [
 ObjTp=CED
 H=6
-Name=TSR310_Lights_Light 4 Dimmer.ced
+Name=TSR310_Lights_Light Dimmer 5.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1
@@ -469,13 +517,13 @@ CedVer=1
 ;================================================================================
 [
 ObjTp=Symbol
-Name=TSR310_Curtains_Curtain Open Close.ced
-Hint=Curtain Open Close (Smart Object ID=4)
+Name=TSR310_Lights_Light Dimmer 1.ced
+Hint=Light Dimmer 1 (Smart Object ID=23)
 Code=7
 SGControlType=Horizontal Tab Button
-SGControlName=Curtain Open Close
-GUID=73C58A12-363E-4F6F-9D01-0339A885EBAA
-SmplCName=TSR310_Curtains_Curtain Open Close.ced
+SGControlName=Light Dimmer 1
+GUID=F9F5F2DE-9C2B-4B16-A201-6CA5A0219208
+SmplCName=TSR310_Lights_Light Dimmer 1.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -515,7 +563,7 @@ ParamSigType1=Constant
 MPp=1
 Pp1=7
 CedH=7
-SmartObjId=4d
+SmartObjId=23d
 ]
 ; Parameter Properties for Smart Object ID
 [
@@ -523,7 +571,7 @@ ObjTp=Dp
 H=7
 Tp=1
 HD=TRUE
-DV=4d
+DV=23d
 NF=1
 DNF=1
 EncFmt=0
@@ -534,7 +582,7 @@ Sgn=0
 [
 ObjTp=CED
 H=7
-Name=TSR310_Curtains_Curtain Open Close.ced
+Name=TSR310_Lights_Light Dimmer 1.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1
@@ -542,13 +590,13 @@ CedVer=1
 ;================================================================================
 [
 ObjTp=Symbol
-Name=TSR310_Curtains_Screen UP Down.ced
-Hint=Screen UP Down (Smart Object ID=5)
+Name=TSR310_Projector_Projectro Misc.ced
+Hint=Projectro Misc (Smart Object ID=6)
 Code=8
 SGControlType=Horizontal Tab Button
-SGControlName=Screen UP Down
-GUID=D8D0A4B7-DE3A-4380-BF4F-9BD2E4C0EEFE
-SmplCName=TSR310_Curtains_Screen UP Down.ced
+SGControlName=Projectro Misc
+GUID=8A569CCB-000A-4B49-9F31-F58C6A3243C6
+SmplCName=TSR310_Projector_Projectro Misc.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -588,12 +636,247 @@ ParamSigType1=Constant
 MPp=1
 Pp1=8
 CedH=8
-SmartObjId=5d
+SmartObjId=6d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
 H=8
+Tp=1
+HD=TRUE
+DV=6d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=8
+Name=TSR310_Projector_Projectro Misc.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSR310_Beosys_Treble UP Down.ced
+Hint=Treble UP Down (Smart Object ID=2)
+Code=9
+SGControlType=Horizontal Tab Button
+SGControlName=Treble UP Down
+GUID=8EC12310-8639-41CD-A1B2-76B2705BC7DB
+SmplCName=TSR310_Beosys_Treble UP Down.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=9
+CedH=9
+SmartObjId=2d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=9
+Tp=1
+HD=TRUE
+DV=2d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=9
+Name=TSR310_Beosys_Treble UP Down.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSR310_Beosys_Bass UP Dwon.ced
+Hint=Bass UP Dwon (Smart Object ID=3)
+Code=10
+SGControlType=Horizontal Tab Button
+SGControlName=Bass UP Dwon
+GUID=7E51D5C0-454D-4A3D-889B-E12CCAFED24A
+SmplCName=TSR310_Beosys_Bass UP Dwon.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=10
+CedH=10
+SmartObjId=3d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=10
+Tp=1
+HD=TRUE
+DV=3d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=10
+Name=TSR310_Beosys_Bass UP Dwon.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSR310_Beosys_Beosys Input.ced
+Hint=Beosys Input (Smart Object ID=5)
+Code=11
+SGControlType=Horizontal Tab Button
+SGControlName=Beosys Input
+GUID=7F437B46-C21E-44D9-BAD5-B82B798CDE5E
+SmplCName=TSR310_Beosys_Beosys Input.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=11
+CedH=11
+SmartObjId=5d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=11
 Tp=1
 HD=TRUE
 DV=5d
@@ -606,8 +889,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=8
-Name=TSR310_Curtains_Screen UP Down.ced
+H=11
+Name=TSR310_Beosys_Beosys Input.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

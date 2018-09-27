@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Occupancy_Occupancy FB.ced
+Name=TSW760_Occupancy_Occupancy FB.ced
 Hint=Occupancy FB (Smart Object ID=10)
 Code=8
 SGControlType=Vertical Tab Button
 SGControlName=Occupancy FB
 GUID=895C099A-9BE4-4F62-8B49-F5912404D506
-SmplCName=tsw760_Occupancy_Occupancy FB.ced
+SmplCName=TSW760_Occupancy_Occupancy FB.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10074
@@ -105,7 +105,7 @@ Sgn=0
 [
 ObjTp=CED
 H=8
-Name=tsw760_Occupancy_Occupancy FB.ced
+Name=TSW760_Occupancy_Occupancy FB.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

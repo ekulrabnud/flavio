@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Lights_Light 2 Dimmer.ced
+Name=TSW760_Lights_Light 2 Dimmer.ced
 Hint=Light 2 Dimmer (Smart Object ID=24)
 Code=15
 SGControlType=Vertical Tab Button
 SGControlName=Light 2 Dimmer
 GUID=AE8D0935-588D-404E-B1C2-75389F1D8F25
-SmplCName=tsw760_Lights_Light 2 Dimmer.ced
+SmplCName=TSW760_Lights_Light 2 Dimmer.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10074
@@ -73,7 +73,7 @@ Sgn=0
 [
 ObjTp=CED
 H=15
-Name=tsw760_Lights_Light 2 Dimmer.ced
+Name=TSW760_Lights_Light 2 Dimmer.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

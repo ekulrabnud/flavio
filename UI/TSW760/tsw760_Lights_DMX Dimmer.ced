@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Lights_DMX Dimmer.ced
+Name=TSW760_Lights_DMX Dimmer.ced
 Hint=DMX Dimmer (Smart Object ID=27)
-Code=18
+Code=17
 SGControlType=Vertical Tab Button
 SGControlName=DMX Dimmer
 GUID=A7CCE81D-E91B-4B18-BA9A-C0853DB033D1
-SmplCName=tsw760_Lights_DMX Dimmer.ced
+SmplCName=TSW760_Lights_DMX Dimmer.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10074
@@ -52,14 +52,14 @@ OutputSigType4=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=18
-CedH=18
+Pp1=17
+CedH=17
 SmartObjId=27d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=18
+H=17
 Tp=1
 HD=TRUE
 DV=27d
@@ -72,8 +72,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=18
-Name=tsw760_Lights_DMX Dimmer.ced
+H=17
+Name=TSW760_Lights_DMX Dimmer.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

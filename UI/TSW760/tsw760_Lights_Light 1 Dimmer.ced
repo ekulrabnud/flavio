@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Lights_Light 1 Dimmer.ced
+Name=TSW760_Lights_Light 1 Dimmer.ced
 Hint=Light 1 Dimmer (Smart Object ID=23)
 Code=12
 SGControlType=Vertical Tab Button
 SGControlName=Light 1 Dimmer
 GUID=FB5F2A78-1944-45D6-98CA-215139A1FF94
-SmplCName=tsw760_Lights_Light 1 Dimmer.ced
+SmplCName=TSW760_Lights_Light 1 Dimmer.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10074
@@ -73,7 +73,7 @@ Sgn=0
 [
 ObjTp=CED
 H=12
-Name=tsw760_Lights_Light 1 Dimmer.ced
+Name=TSW760_Lights_Light 1 Dimmer.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

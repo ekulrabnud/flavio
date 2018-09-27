@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Projector_Projector Misc.ced
+Name=TSW760_Projector_Projector Misc.ced
 Hint=Projector Misc (Smart Object ID=34)
 Code=23
 SGControlType=Vertical Tab Button
 SGControlName=Projector Misc
 GUID=C810C8AA-165E-4F98-9340-5F020C6B7E5D
-SmplCName=tsw760_Projector_Projector Misc.ced
+SmplCName=TSW760_Projector_Projector Misc.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10074
@@ -81,7 +81,7 @@ Sgn=0
 [
 ObjTp=CED
 H=23
-Name=tsw760_Projector_Projector Misc.ced
+Name=TSW760_Projector_Projector Misc.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

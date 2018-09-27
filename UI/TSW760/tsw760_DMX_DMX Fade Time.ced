@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_DMX_DMX Fade Time.ced
+Name=TSW760_DMX_DMX Fade Time.ced
 Hint=DMX Fade Time (Smart Object ID=38)
-Code=35
+Code=38
 SGControlType=Vertical Tab Button
 SGControlName=DMX Fade Time
 GUID=B4986347-243A-4FE3-B2E8-F6BE82E27E7A
-SmplCName=tsw760_DMX_DMX Fade Time.ced
+SmplCName=TSW760_DMX_DMX Fade Time.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10074
@@ -52,14 +52,14 @@ OutputSigType4=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=35
-CedH=35
+Pp1=38
+CedH=38
 SmartObjId=38d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=35
+H=38
 Tp=1
 HD=TRUE
 DV=38d
@@ -72,8 +72,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=35
-Name=tsw760_DMX_DMX Fade Time.ced
+H=38
+Name=TSW760_DMX_DMX Fade Time.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

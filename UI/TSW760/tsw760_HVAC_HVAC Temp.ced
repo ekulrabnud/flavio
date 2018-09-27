@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_HVAC_HVAC Temp.ced
+Name=TSW760_HVAC_HVAC Temp.ced
 Hint=HVAC Temp (Smart Object ID=22)
 Code=22
 SGControlType=Vertical Tab Button
 SGControlName=HVAC Temp
 GUID=DE74C1DF-6B53-457D-AB4D-1917C976A7B6
-SmplCName=tsw760_HVAC_HVAC Temp.ced
+SmplCName=TSW760_HVAC_HVAC Temp.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10074
@@ -73,7 +73,7 @@ Sgn=0
 [
 ObjTp=CED
 H=22
-Name=tsw760_HVAC_HVAC Temp.ced
+Name=TSW760_HVAC_HVAC Temp.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

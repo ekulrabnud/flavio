@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Blu Ray_Transport.ced
+Name=TSW760_Blu Ray_Transport.ced
 Hint=Transport (Smart Object ID=6)
 Code=25
 SGControlType=Horizontal Tab Button
 SGControlName=Transport
 GUID=38E50541-00AB-47D7-AD37-BA53EF2E8BDB
-SmplCName=tsw760_Blu Ray_Transport.ced
+SmplCName=TSW760_Blu Ray_Transport.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -113,7 +113,7 @@ Sgn=0
 [
 ObjTp=CED
 H=25
-Name=tsw760_Blu Ray_Transport.ced
+Name=TSW760_Blu Ray_Transport.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

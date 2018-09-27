@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_beosys_Beosys Input.ced
+Name=TSW760_beosys_Beosys Input.ced
 Hint=Beosys Input (Smart Object ID=30)
-Code=29
+Code=32
 SGControlType=Horizontal Tab Button
 SGControlName=Beosys Input
 GUID=9BDDD8BC-4E68-4953-AD83-5CFB792F40A9
-SmplCName=tsw760_beosys_Beosys Input.ced
+SmplCName=TSW760_beosys_Beosys Input.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -68,14 +68,14 @@ OutputSigType8=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=29
-CedH=29
+Pp1=32
+CedH=32
 SmartObjId=30d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=29
+H=32
 Tp=1
 HD=TRUE
 DV=30d
@@ -88,8 +88,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=29
-Name=tsw760_beosys_Beosys Input.ced
+H=32
+Name=TSW760_beosys_Beosys Input.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

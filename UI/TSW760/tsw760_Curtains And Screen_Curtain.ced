@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Curtains And Screen_Curtain.ced
+Name=TSW760_Curtains And Screen_Curtain.ced
 Hint=Curtain (Smart Object ID=19)
 Code=19
 SGControlType=Vertical Tab Button
 SGControlName=Curtain
 GUID=2FC86575-B19D-4B0D-9C13-197449D27DDF
-SmplCName=tsw760_Curtains And Screen_Curtain.ced
+SmplCName=TSW760_Curtains And Screen_Curtain.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10074
@@ -73,7 +73,7 @@ Sgn=0
 [
 ObjTp=CED
 H=19
-Name=tsw760_Curtains And Screen_Curtain.ced
+Name=TSW760_Curtains And Screen_Curtain.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

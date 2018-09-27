@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Occupancy_Occupancy Enable .ced
+Name=TSW760_Occupancy_Occupancy Enable .ced
 Hint=Occupancy Enable  (Smart Object ID=11)
 Code=7
 SGControlType=Horizontal Tab Button
 SGControlName=Occupancy Enable 
 GUID=805CD4AF-EEB2-4E9F-A68D-9B8EB3A7B094
-SmplCName=tsw760_Occupancy_Occupancy Enable .ced
+SmplCName=TSW760_Occupancy_Occupancy Enable .ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -97,7 +97,7 @@ Sgn=0
 [
 ObjTp=CED
 H=7
-Name=tsw760_Occupancy_Occupancy Enable .ced
+Name=TSW760_Occupancy_Occupancy Enable .ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

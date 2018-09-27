@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Occupancy_OS US Sensitivity Vac.ced
+Name=TSW760_Occupancy_OS US Sensitivity Vac.ced
 Hint=OS US Sensitivity Vac (Smart Object ID=13)
 Code=10
 SGControlType=Horizontal Tab Button
 SGControlName=OS US Sensitivity Vac
 GUID=E203867B-E970-4923-B3C3-AB45C1A5DF29
-SmplCName=tsw760_Occupancy_OS US Sensitivity Vac.ced
+SmplCName=TSW760_Occupancy_OS US Sensitivity Vac.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10031
@@ -73,7 +73,7 @@ Sgn=0
 [
 ObjTp=CED
 H=10
-Name=tsw760_Occupancy_OS US Sensitivity Vac.ced
+Name=TSW760_Occupancy_OS US Sensitivity Vac.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

@@ -8,13 +8,13 @@ VTProeVer=6.2.00
 ]
 [
 ObjTp=Symbol
-Name=tsw760_Projector_DPAD.ced
+Name=TSW760_Projector_DPAD.ced
 Hint=DPAD (Smart Object ID=15)
 Code=24
 SGControlType=DPad
 SGControlName=DPAD
 GUID=BBB700B1-2088-45B2-A3E5-10B23892983C
-SmplCName=tsw760_Projector_DPAD.ced
+SmplCName=TSW760_Projector_DPAD.ced
 SMWRev=4.02.19
 Expand=expand_random
 HelpID=10015
@@ -77,7 +77,7 @@ Sgn=0
 [
 ObjTp=CED
 H=24
-Name=tsw760_Projector_DPAD.ced
+Name=TSW760_Projector_DPAD.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1
