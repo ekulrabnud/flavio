@@ -1,0 +1,20 @@
+<Device Model="DIN-AP3">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="CLX-2DIM8" DeviceId="03"/>
+      <Device Model="DIN-2MC2" DeviceId="05"/>
+      <Device Model="C2N-IO" DeviceId="08"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="97" Name="Occupancy Sensor"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="CEN-GWEXER" DeviceId="03">
+         <Network Type="RF">
+            <Device Model="CHV-TSTATEX" DeviceId="03" Name="Thermostat"/>
+            <Device Model="CLC-1LEDPWM-RGBW-EX" DeviceId="3A"/>
+            <Device Model="CLC-1LEDPWM-RGBW-EX" DeviceId="3B"/>
+            <Device Model="CLC-1LEDPWM-RGBW-EX" DeviceId="3C"/>
+         </Network>
+      </Device>
+      <Device Model="TSW-760" DeviceId="04"/>
+      <Device Model="TSR-310" DeviceId="05"/>
+   </Network>
+</Device>

@@ -330,8 +330,6 @@ public override object FunctionMain (  object __obj__ )
 
 public override void LogosSplusInitialize()
 {
-    SocketInfo __socketinfo__ = new SocketInfo( 1, this );
-    InitialParametersClass.ResolveHostName = __socketinfo__.ResolveHostName;
     _SplusNVRAM = new SplusNVRAM( this );
     _SplusNVRAM.BUFFER  = new ushort[ 26 ];
     _SplusNVRAM.CMD_BUFFER  = new ushort[ 26 ];
